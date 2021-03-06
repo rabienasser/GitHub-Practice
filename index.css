@@ -47,6 +47,11 @@ header {
   border-radius: 25%;
 }
 
+.random {
+  background: tan;
+  color: honeydew;
+}
+
 .link-page {
   background: aquamarine;
 }
