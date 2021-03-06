@@ -55,4 +55,8 @@ header {
 .link-page {
   background: aquamarine;
 }
+
+.link-page img {
+  width: 30%;
+}
 /*# sourceMappingURL=index.css.map */
