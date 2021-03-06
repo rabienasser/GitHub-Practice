@@ -1,0 +1,32 @@
+.container {
+  width: 1200px;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .box {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 0 1rem;
+    transition: all 1s ease-out;
+
+    &:hover {
+      cursor: pointer;
+      background: blue;
+      border-radius: 25%;
+    }
+  }
+}
